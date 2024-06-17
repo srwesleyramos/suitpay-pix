@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>SuitPay - PIX</title>
+    <link href="./styles/home.css" rel="stylesheet">
+</head>
+<body>
+<h1>Gerador de PIX</h1>
+<form id="form">
+    <label for="requestNumber">Número do Pedido:</label>
+    <input id="requestNumber" name="requestNumber" required type="text"><br>
+
+    <label for="dueDate">Data de Vencimento:</label>
+    <input id="dueDate" name="dueDate" required type="date"><br>
+
+    <label for="amount">Valor:</label>
+    <input id="amount" name="amount" required type="text"><br>
+
+    <label for="name">Nome:</label>
+    <input id="name" name="name" required type="text"><br>
+
+    <label for="document">CPF:</label>
+    <input id="document" name="document" required type="text"><br>
+
+    <label for="email">Email:</label>
+    <input id="email" name="email" required type="email"><br>
+
+    <label for="clientId">Client ID:</label>
+    <input id="clientId" name="clientId" required type="password"><br>
+
+    <label for="clientSecret">Client Secret:</label>
+    <input id="clientSecret" name="clientSecret" required type="password"><br>
+
+    <button id="button">Enviar</button>
+</form>
+
+<script src="./scripts/check.js"></script>
+<script src="./scripts/home.js"></script>
+</body>
+</html>
